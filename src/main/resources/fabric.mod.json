@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "exotic_moss",
+  "version": "${version}",
+  "name": "Exotic Moss",
+  "description": "Strange moss with interesting uses.",
+  "authors": [
+    "PatrickShannon"
+  ],
+  "contact": {
+    "website": "pinaz993.net"
+  },
+  "license": "MIT",
+  "icon": "assets/exotic_moss/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.pinaz993.exotic_moss.client.ExoticMossClient"
+    ],
+    "main": [
+      "net.pinaz993.exotic_moss.ExoticMoss"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

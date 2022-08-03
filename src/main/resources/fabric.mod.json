@@ -5,10 +5,11 @@
   "name": "Exotic Moss",
   "description": "Strange moss with interesting uses.",
   "authors": [
-    "PatrickShannon"
+    "Patrick Shannon"
   ],
   "contact": {
-    "website": "pinaz993.net"
+    "website": "https://mods.pinaz993.net",
+    "sources": "https://github.com/Pinaz993/ExoticMoss"
   },
   "license": "MIT",
   "icon": "assets/exotic_moss/icon.png",
@@ -22,8 +23,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "fabric": "*",
-    "minecraft": "1.18.1"
+    "fabricloader": ">=0.14.8",
+    "fabric": ">=0.57.0+1.19",
+    "minecraft": "1.19"
   }
 }
